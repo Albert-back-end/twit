@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50358FD52CFD98A40079BB86 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50358FD42CFD98A40079BB86 /* SecondaryButton.swift */; };
+		5057CC352D2A64E7009BA574 /* OverviewNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057CC342D2A64E7009BA574 /* OverviewNavbar.swift */; };
+		5057CC372D2A652E009BA574 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057CC362D2A652E009BA574 /* BaseView.swift */; };
+		507B7D992D32E82F006E2CD7 /* WeakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B7D982D32E82F006E2CD7 /* WeakView.swift */; };
+		507B7D9B2D32EC5E006E2CD7 /* WeakDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B7D9A2D32EC5E006E2CD7 /* WeakDayView.swift */; };
+		5085DC2F2CFA0F830003F67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC2E2CFA0F830003F67B /* AppDelegate.swift */; };
+		5085DC312CFA0F830003F67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC302CFA0F830003F67B /* SceneDelegate.swift */; };
+		5085DC332CFA0F830003F67B /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC322CFA0F830003F67B /* OverviewController.swift */; };
+		5085DC382CFA0F860003F67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5085DC372CFA0F860003F67B /* Assets.xcassets */; };
+		5085DC3B2CFA0F860003F67B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5085DC3A2CFA0F860003F67B /* Base */; };
+		5085DC452CFA155C0003F67B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC442CFA155C0003F67B /* TabBarController.swift */; };
+		5085DC4A2CFA168C0003F67B /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC492CFA168C0003F67B /* UIColor + ext.swift */; };
+		5085DC4C2CFA17460003F67B /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085DC4B2CFA17460003F67B /* Resources.swift */; };
+		50E774ED2CFAE9680047A5C8 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774EC2CFAE9680047A5C8 /* NavBarController.swift */; };
+		50E774F02CFAED3B0047A5C8 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774EF2CFAED3B0047A5C8 /* BaseController.swift */; };
+		50E774F22CFAEFC80047A5C8 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774F12CFAEFC80047A5C8 /* UIView + ext.swift */; };
+		50E774F92CFAF31D0047A5C8 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774F82CFAF31D0047A5C8 /* SessionController.swift */; };
+		50E774FB2CFAF33A0047A5C8 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774FA2CFAF33A0047A5C8 /* ProgressController.swift */; };
+		50E774FD2CFAF35F0047A5C8 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E774FC2CFAF35F0047A5C8 /* SettingsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50358FD42CFD98A40079BB86 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		5057CC342D2A64E7009BA574 /* OverviewNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavbar.swift; sourceTree = "<group>"; };
+		5057CC362D2A652E009BA574 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		507B7D982D32E82F006E2CD7 /* WeakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakView.swift; sourceTree = "<group>"; };
+		507B7D9A2D32EC5E006E2CD7 /* WeakDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakDayView.swift; sourceTree = "<group>"; };
+		5085DC2B2CFA0F830003F67B /* treker-lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "treker-lessons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5085DC2E2CFA0F830003F67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5085DC302CFA0F830003F67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5085DC322CFA0F830003F67B /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		5085DC372CFA0F860003F67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5085DC3A2CFA0F860003F67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5085DC3C2CFA0F860003F67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5085DC442CFA155C0003F67B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5085DC492CFA168C0003F67B /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		5085DC4B2CFA17460003F67B /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		50E774EC2CFAE9680047A5C8 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		50E774EF2CFAED3B0047A5C8 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		50E774F12CFAEFC80047A5C8 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
+		50E774F82CFAF31D0047A5C8 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		50E774FA2CFAF33A0047A5C8 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		50E774FC2CFAF35F0047A5C8 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5085DC282CFA0F830003F67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50358FD32CFD98890079BB86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				507B7D972D32E817006E2CD7 /* WeakView */,
+				50358FD42CFD98A40079BB86 /* SecondaryButton.swift */,
+				5057CC342D2A64E7009BA574 /* OverviewNavbar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		507B7D972D32E817006E2CD7 /* WeakView */ = {
+			isa = PBXGroup;
+			children = (
+				507B7D982D32E82F006E2CD7 /* WeakView.swift */,
+				507B7D9A2D32EC5E006E2CD7 /* WeakDayView.swift */,
+			);
+			path = WeakView;
+			sourceTree = "<group>";
+		};
+		5085DC222CFA0F830003F67B = {
+			isa = PBXGroup;
+			children = (
+				5085DC2D2CFA0F830003F67B /* treker-lessons */,
+				5085DC2C2CFA0F830003F67B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5085DC2C2CFA0F830003F67B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC2B2CFA0F830003F67B /* treker-lessons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5085DC2D2CFA0F830003F67B /* treker-lessons */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC462CFA16200003F67B /* Helpers */,
+				5085DC422CFA102E0003F67B /* Application */,
+				50E774EE2CFAED0E0047A5C8 /* Controllers */,
+				5085DC432CFA10520003F67B /* SupportingFiles */,
+			);
+			path = "treker-lessons";
+			sourceTree = "<group>";
+		};
+		5085DC422CFA102E0003F67B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC2E2CFA0F830003F67B /* AppDelegate.swift */,
+				5085DC302CFA0F830003F67B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5085DC432CFA10520003F67B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC372CFA0F860003F67B /* Assets.xcassets */,
+				5085DC392CFA0F860003F67B /* LaunchScreen.storyboard */,
+				5085DC3C2CFA0F860003F67B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5085DC462CFA16200003F67B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC472CFA16370003F67B /* Extensions */,
+				5085DC4B2CFA17460003F67B /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5085DC472CFA16370003F67B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5085DC492CFA168C0003F67B /* UIColor + ext.swift */,
+				50E774F12CFAEFC80047A5C8 /* UIView + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50E774EE2CFAED0E0047A5C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50E774EC2CFAE9680047A5C8 /* NavBarController.swift */,
+				5085DC442CFA155C0003F67B /* TabBarController.swift */,
+				50E774F72CFAF2630047A5C8 /* Settings */,
+				50E774F62CFAF2520047A5C8 /* Progress */,
+				50E774F52CFAF24B0047A5C8 /* Session */,
+				50E774F42CFAF2440047A5C8 /* Overview */,
+				50E774F32CFAF21D0047A5C8 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50E774F32CFAF21D0047A5C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				50E774EF2CFAED3B0047A5C8 /* BaseController.swift */,
+				5057CC362D2A652E009BA574 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		50E774F42CFAF2440047A5C8 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				50358FD32CFD98890079BB86 /* Views */,
+				5085DC322CFA0F830003F67B /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		50E774F52CFAF24B0047A5C8 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				50E774F82CFAF31D0047A5C8 /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		50E774F62CFAF2520047A5C8 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				50E774FA2CFAF33A0047A5C8 /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		50E774F72CFAF2630047A5C8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				50E774FC2CFAF35F0047A5C8 /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5085DC2A2CFA0F830003F67B /* treker-lessons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5085DC3F2CFA0F860003F67B /* Build configuration list for PBXNativeTarget "treker-lessons" */;
+			buildPhases = (
+				5085DC272CFA0F830003F67B /* Sources */,
+				5085DC282CFA0F830003F67B /* Frameworks */,
+				5085DC292CFA0F830003F67B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "treker-lessons";
+			productName = "treker-lessons";
+			productReference = 5085DC2B2CFA0F830003F67B /* treker-lessons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5085DC232CFA0F830003F67B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5085DC2A2CFA0F830003F67B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5085DC262CFA0F830003F67B /* Build configuration list for PBXProject "treker-lessons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5085DC222CFA0F830003F67B;
+			productRefGroup = 5085DC2C2CFA0F830003F67B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5085DC2A2CFA0F830003F67B /* treker-lessons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5085DC292CFA0F830003F67B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5085DC382CFA0F860003F67B /* Assets.xcassets in Resources */,
+				5085DC3B2CFA0F860003F67B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5085DC272CFA0F830003F67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E774FD2CFAF35F0047A5C8 /* SettingsController.swift in Sources */,
+				5085DC332CFA0F830003F67B /* OverviewController.swift in Sources */,
+				50E774F22CFAEFC80047A5C8 /* UIView + ext.swift in Sources */,
+				5085DC452CFA155C0003F67B /* TabBarController.swift in Sources */,
+				5085DC2F2CFA0F830003F67B /* AppDelegate.swift in Sources */,
+				50E774F92CFAF31D0047A5C8 /* SessionController.swift in Sources */,
+				507B7D9B2D32EC5E006E2CD7 /* WeakDayView.swift in Sources */,
+				50358FD52CFD98A40079BB86 /* SecondaryButton.swift in Sources */,
+				50E774FB2CFAF33A0047A5C8 /* ProgressController.swift in Sources */,
+				50E774ED2CFAE9680047A5C8 /* NavBarController.swift in Sources */,
+				5085DC4C2CFA17460003F67B /* Resources.swift in Sources */,
+				5057CC352D2A64E7009BA574 /* OverviewNavbar.swift in Sources */,
+				5085DC4A2CFA168C0003F67B /* UIColor + ext.swift in Sources */,
+				507B7D992D32E82F006E2CD7 /* WeakView.swift in Sources */,
+				5057CC372D2A652E009BA574 /* BaseView.swift in Sources */,
+				50E774F02CFAED3B0047A5C8 /* BaseController.swift in Sources */,
+				5085DC312CFA0F830003F67B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5085DC392CFA0F860003F67B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5085DC3A2CFA0F860003F67B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5085DC3D2CFA0F860003F67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5085DC3E2CFA0F860003F67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5085DC402CFA0F860003F67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9VU636ZTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "treker-lessons/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.treker-lessons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5085DC412CFA0F860003F67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9VU636ZTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "treker-lessons/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.treker-lessons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5085DC262CFA0F830003F67B /* Build configuration list for PBXProject "treker-lessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5085DC3D2CFA0F860003F67B /* Debug */,
+				5085DC3E2CFA0F860003F67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5085DC3F2CFA0F860003F67B /* Build configuration list for PBXNativeTarget "treker-lessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5085DC402CFA0F860003F67B /* Debug */,
+				5085DC412CFA0F860003F67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5085DC232CFA0F830003F67B /* Project object */;
+}
